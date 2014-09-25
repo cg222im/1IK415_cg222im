@@ -7,12 +7,12 @@
     </head>
     
     <body>
+    <!-- Sätta bakgrundsfärg = svart på body? -->
 
     <div id="header">
         <h3>Kontaktinformation</h3>
     </div>
     
-    <div id="main">
     <div id="form">
         <form id="contact-form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
             <input type="hidden"/>
@@ -31,7 +31,7 @@
                 <ul>
                     <li>Var härstammar du ifrån?
                         <ul>
-                            <li><label for="earth">Tellusn</label> <input type="checkbox" name="earth" id="earth" value="earth"></li>
+                            <li><label for="earth">Tellus</label> <input type="checkbox" name="earth" id="earth" value="earth"></li>
                             <li><label for="mars">Mars</label> <input type="checkbox" name="mars" id="mars" value="mars"></li>
                             <li><label for="sirius">Sirius V</label> <input type="checkbox" name="sirius" id="sirius" value="sirius"></li>
                             <li><label for="unknown">Okänt</label> <input type="checkbox" name="unknown" id="unknown" value="unknown"></li>
@@ -59,15 +59,15 @@
              
         </form>
     </div>
-    </div>
         
     <div id="nav">
         <h3>Navigation</h3>
-        <ul>
+        <p>För att ta sig runt mellan sidorna:</p>
+        <ul class="navmenu">
             <li><a href="../index.html">Start</a></li>
             <li><a href="laborationer.html">Laborationer</a></li>
             <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="kontakt.html" id="active">Kontakt</a></li>
         </ul>
     </div>
     

@@ -1,3 +1,5 @@
+body {background-color: black}
+html, body {height: 100%;}
 p {color: #DCDCDC;}
 table {text-align: center;}
 
@@ -8,6 +10,14 @@ a:hover { color: yellow; }
 a:active { color: silver; }
 
 
+#wrapper {
+    background-color: black;
+    min-height: 100%;
+    margin: auto 0 auto 0;
+    margin-bottom: -120px;
+
+    
+}
 #header {
     border-style: outset;
     border-width: 5px;
@@ -17,8 +27,6 @@ a:active { color: silver; }
     text-align: center;
     padding: 5px;
 }
-
-
 #main {
     border-style: outset;
     border-width: 5px;
@@ -28,15 +36,23 @@ a:active { color: silver; }
     text-align: left;
     padding: 10px; 
 }
-#footer {
+#wrapper:after {
+    content:"";
+    display:block;
+    height: 100px;
+}
+.footer {
     border-style: inset;
     border-width: 5px;
     border-color: gray;
     background-color: black;
     color: #DCDCDC;
     clear: both;
-    text-align: center;
-    padding: 5px; 
+    text-align: left;
+    padding: 5px;
+    height: 120pX;
+    
+   
 }
 #table {
     text-align: center;
@@ -76,7 +92,6 @@ a:active { color: silver; }
     background-color: black;
     color: #DCDCDC;
     height: 300px;
-    width: 240px;
     float: right;
     padding: 5px;
     

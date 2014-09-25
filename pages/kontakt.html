@@ -8,71 +8,73 @@
     
     <body>
     <!-- Sätta bakgrundsfärg = svart på body? -->
-
-    <div id="header">
-        <h3>Kontaktinformation</h3>
-    </div>
-    
-    <div id="form">
-        <form id="contact-form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-            <input type="hidden"/>
-            
-            <fieldset>
-                <legend>Huvudinformation</legend>
-                <ul>
-                    <li><label for="namn">Namn:</label> <input type="text" name="namn" id="namn" value="" /></li>
-                    <li><label for="rubrik">Rubrik:</label> <input type="text" name="rubrik" id="rubrik" value="" /></li>
-                </ul>
-                    
-            </fieldset>
-                
-            <fieldset>
-                <legend>Information</legend>
-                <ul>
-                    <li>Var härstammar du ifrån?
-                        <ul>
-                            <li><label for="earth">Tellus</label> <input type="checkbox" name="earth" id="earth" value="earth"></li>
-                            <li><label for="mars">Mars</label> <input type="checkbox" name="mars" id="mars" value="mars"></li>
-                            <li><label for="sirius">Sirius V</label> <input type="checkbox" name="sirius" id="sirius" value="sirius"></li>
-                            <li><label for="unknown">Okänt</label> <input type="checkbox" name="unknown" id="unknown" value="unknown"></li>
-                        </ul>
-                    </li>
-                </ul>
-            </fieldset>
-                  
-            <fieldset>
-                <legend>Ärende</legend>
-                <ul>
-                    <li><label for="typ">Ärendetyp:</label>
-                        <select name="typ" id="typ">
-                            <option value="question">Fråga</option>
-                            <option value="complaint">Klagomål</option>
-                            <option value="spam" selected>Spam</option>
-                            <option value="love">Kärlek</option>
-                        </select></li>
-                  
-                    <li><label for="comments">Kommentar:</label> <textarea name="comments" id="comments" cols="42" rows="5"></textarea></li>
-                </ul>
-            </fieldset>
-                
-            <input type="submit" value="submit" />
-             
-        </form>
-    </div>
+    <div id="wrapper">
+        <div id="header">
+            <h3>Kontaktinformation</h3>
+        </div>
         
-    <div id="nav">
-        <h3>Navigation</h3>
-        <p>För att ta sig runt mellan sidorna:</p>
-        <ul class="navmenu">
-            <li><a href="../index.html">Start</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="kontakt.html" id="active">Kontakt</a></li>
-        </ul>
+        <div id="form">
+            <form id="contact-form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                <input type="hidden"/>
+                
+                <fieldset>
+                    <legend>Huvudinformation</legend>
+                    <ul>
+                        <li><label for="namn">Namn:</label> <input type="text" name="namn" id="namn" value="" /></li>
+                        <li><label for="rubrik">Rubrik:</label> <input type="text" name="rubrik" id="rubrik" value="" /></li>
+                    </ul>
+                        
+                </fieldset>
+                    
+                <fieldset>
+                    <legend>Information</legend>
+                    <ul>
+                        <li>Var härstammar du ifrån?
+                            <ul>
+                                <li><label for="earth">Tellus</label> <input type="checkbox" name="earth" id="earth" value="earth"></li>
+                                <li><label for="mars">Mars</label> <input type="checkbox" name="mars" id="mars" value="mars"></li>
+                                <li><label for="sirius">Sirius V</label> <input type="checkbox" name="sirius" id="sirius" value="sirius"></li>
+                                <li><label for="unknown">Okänt</label> <input type="checkbox" name="unknown" id="unknown" value="unknown"></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </fieldset>
+                      
+                <fieldset>
+                    <legend>Ärende</legend>
+                    <ul>
+                        <li><label for="typ">Ärendetyp:</label>
+                            <select name="typ" id="typ">
+                                <option value="question">Fråga</option>
+                                <option value="complaint">Klagomål</option>
+                                <option value="spam" selected>Spam</option>
+                                <option value="love">Kärlek</option>
+                            </select></li>
+                      
+                        <li><label for="comments">Kommentar:</label> <textarea name="comments" id="comments" cols="42" rows="5"></textarea></li>
+                    </ul>
+                </fieldset>
+                    
+                <input type="submit" value="submit" />
+                 
+            </form>
+        </div>
+            
+        <div id="nav">
+            <h3>Navigation</h3>
+            <p>För att ta sig runt mellan sidorna:</p>
+            <ul class="navmenu">
+                <li><a href="../index.html">Start</a></li>
+                <li><a href="laborationer.html">Laborationer</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="kontakt.html" id="active">Kontakt</a></li>
+            </ul>
+        </div>
+        
     </div>
     
-    <div id="footer">
-     <p></p>
+    <div class="footer">
+        <p>Om du inte förstod att detta är ett skämt så skickas inte denna information någonstans.</p>
     </div>
     
     </body>

@@ -51,9 +51,9 @@ a:active { color: silver; }
 #table {
     text-align: center;
     margin: 0 auto;
-    width: 290px;
+    width: 280px;
     /* Kan behöva komma att ändra storlek allt eftersom; dela upp i Laborationer/kolumner? */
-    height: 690px;
+    height: 645px;
     margin-left: auto;
     margin-top: auto;
     border-style: outset;
@@ -65,13 +65,13 @@ a:active { color: silver; }
 }
 /* för form i kontakt.html vars sidas formatering inte fungerar? */
 #form {
-    margin: 0 auto;
-    margin-left: auto;
-    margin-top: auto;
+    width: 1200px;
+    height: 1600px;
+    float: left;
     border-style: outset;
     border-width: 5px;
     border-color: gray;
     background-color:black;
-    color: gray;
+    color: #DCDCDC;
     padding: 5px;
 }

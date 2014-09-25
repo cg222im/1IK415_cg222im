@@ -96,11 +96,11 @@ body {
     border-color:gray;
     background-color: black;
     color: #DCDCDC;
-    height: 300px;
+    height: 450px;
     float: right;
     padding: 5px;
-    
 }
+
 .navmenu { 
     list-style: none; 
 }
@@ -122,9 +122,25 @@ body {
     display: block;
     width: 80%;
     padding: 0px 10px;
+    
 }
 #active {
     display: block;
     font-weight: bold;
     background-color: gray;
+}
+
+#logo {
+    display: block;
+    height: 200px;
+    background-image: url(pics/logo2.png);
+    
+}
+.thumb {
+    display: block;
+    height: 16px;
+    width: 20px;
+    background-image: url(pics/thumb2.png);
+    float: left;
+    
 }

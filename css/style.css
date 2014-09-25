@@ -1,6 +1,5 @@
 html, body {height: 100%;}
-p {color: #DCDCDC;}
-ul {color: #DCDCDC;}
+
 
 a:link { color: #00BFFF; }
 a:visited { color: purple; }
@@ -14,12 +13,15 @@ body {
     font-size: 14px;
     width: 1600px;
     height: 1200px;
+    color: #DCDCDC;
+    text-align: center;
+    margin: auto auto;
 }
 #wrapper {
     background-color: black;
     min-height: 100%;
-    margin: auto 0 auto 0;
-    margin-bottom: -120px;
+    margin: 0 auto -120px auto;
+    width: 1600px;
 }
 #header {
     border-style: outset;
@@ -37,7 +39,7 @@ body {
     background-color: black;
     color: #DCDCDC;
     text-align: left;
-    padding: 10px; 
+    padding: 10px;
 }
 /* För att få sticky footer */
 #wrapper:after {
@@ -45,7 +47,7 @@ body {
     display:block;
     height: 120px;
 }
-.footer {
+#footer {
     border-style: inset;
     border-width: 5px;
     border-color: gray;
@@ -55,6 +57,7 @@ body {
     text-align: center;
     padding: 5px;
     height: 120pX;
+    margin: 0 auto 0 auto;
 }
 #bloglist {
     border-style: inset;
@@ -68,9 +71,9 @@ body {
 #table {
     text-align: center;
     margin: 0 auto;
-    width: 280px;
+    width: 485px;
     /* Kan behöva komma att ändra storlek allt eftersom; dela upp i Laborationer/kolumner? */
-    height: 645px;
+    height: 245px;
     margin-left: auto;
     margin-top: auto;
     border-style: outset;
@@ -111,6 +114,7 @@ table, th, td {
 }
 .navmenu { 
     list-style: none; 
+    margin: auto auto;
 }
 .navmenu li a:hover {
     background-color: gray;
@@ -128,7 +132,7 @@ table, th, td {
     background-color: black;
     color: #DCDCDC;
     display: block;
-    width: 80%;
+    width: 65%;
     padding: 0px 10px;
 }
 #active {

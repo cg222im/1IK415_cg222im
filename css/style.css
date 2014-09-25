@@ -1,6 +1,5 @@
 html, body {height: 100%;}
 p {color: #DCDCDC;}
-table {text-align: center;}
 ul {color: #DCDCDC;}
 
 a:link { color: #00BFFF; }
@@ -13,6 +12,8 @@ body {
     background-color: black;
     font-family: "Times New Roman", Helvetica, Arial, sans-serif;
     font-size: 14px;
+    width: 1600px;
+    height: 1200px;
 }
 #wrapper {
     background-color: black;
@@ -51,9 +52,18 @@ body {
     background-color: black;
     color: #DCDCDC;
     clear: both;
-    text-align: left;
+    text-align: center;
     padding: 5px;
     height: 120pX;
+}
+#bloglist {
+    border-style: inset;
+    border-width: 5px;
+    border-color: gray;
+    background-color: black;
+    color: #DCDCDC;
+    text-align: left;
+    width: 800px;
 }
 #table {
     text-align: center;
@@ -139,4 +149,26 @@ table, th, td {
     width: 20px;
     background-image: url(pics/thumb2.png);
     float: left;
+    margin: 2px;
+}
+.rightBlog {
+    float: right;
+    border-style: outset;
+    border-width: 5px;
+    border-color: gray;
+}
+img.rightBlog {
+    float: right;
+    margin-right: 20px;
+}
+.leftBlog {
+    float: left;
+    margin: 10px;
+    border-style: inset;
+    border-width: 5px;
+    border-color: gray;
+}
+.center {
+    display: block;
+    margin: 20px auto 20px auto;
 }

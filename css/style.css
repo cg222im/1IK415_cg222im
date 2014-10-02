@@ -1,5 +1,7 @@
 html, body {height: 100%;}
-
+dt {margin-top: 5px;}
+h1, h2, h3 { color: #DCDCDC;}
+h4 { color: #D3D3D3; text-decoration: underline; }
 
 a:link { color: #00BFFF; }
 a:visited { color: purple; }
@@ -11,8 +13,7 @@ body {
     background-color: black;
     font-family: "Times New Roman", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    width: 1600px;
-    height: 1200px;
+    width: 1280px;
     color: #DCDCDC;
     text-align: center;
     margin: auto auto;
@@ -21,7 +22,7 @@ body {
     background-color: black;
     min-height: 100%;
     margin: 0 auto -120px auto;
-    width: 1600px;
+    width: 1280px;
 }
 #header {
     border-style: outset;
@@ -31,6 +32,7 @@ body {
     color: #DCDCDC;
     text-align: center;
     padding: 5px;
+    margin: auto 0 auto 0;
 }
 #main {
     border-style: outset;
@@ -40,6 +42,7 @@ body {
     color: #DCDCDC;
     text-align: left;
     padding: 10px;
+    margin: auto 0 auto 0;
 }
 /* För att få sticky footer */
 #wrapper:after {
@@ -88,10 +91,11 @@ table, th, td {
     border-style: solid;
     border-color: gray;
 }
-/* För formulär i kontakt.html vars sidas formatering inte fungerar? */
 #form {
     height: 100%;
-    float: left;
+    width: 400px;
+    /*  margin-bottom negativt tal för att få navigationen att ligga rätt, men footern har fortfarande avstånd? */
+    margin: 50px auto 0 auto;
     border-style: outset;
     border-width: 5px;
     border-color: gray;
@@ -100,7 +104,7 @@ table, th, td {
     padding: 5px;
 }
 #nav {
-    margin: 0;
+    margin-right: 0px;
     padding: 5;
     width:250px;
     border-style: outset;

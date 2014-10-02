@@ -1,0 +1,26 @@
+/* Hides class from printing */
+.donotprint {
+    display: none;
+}
+
+/* Formats class for printing */ 
+.doprint {
+    background-color: white;
+    color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    
+}
+
+/* formats URLs for printing */
+.doprint a:after {
+    content: "(" attr(href) ") ";
+    font-size: smaller;
+    text-decoration: none;
+}
+.doprint, ol, li a:after {
+    content: "(" attr(href) ") ";
+    font-size: smaller;
+    text-decoration: none;
+}
+

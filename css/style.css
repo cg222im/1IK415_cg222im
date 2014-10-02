@@ -73,12 +73,11 @@ body {
 }
 #table {
     text-align: center;
-    margin: 0 auto;
-    width: 485px;
+    margin: 0 auto auto auto;
+
     /* Kan behöva komma att ändra storlek allt eftersom; dela upp i Laborationer/kolumner? */
-    height: 245px;
-    margin-left: auto;
-    margin-top: auto;
+    width: 730px;
+    height: 390px;
     border-style: outset;
     border-width: 5px;
     border-color: gray;

@@ -1,84 +1,120 @@
 <!doctype html>
 <html lang="sv">
-    <head>
-        <meta charset="UTF-8" />
-        <title>index</title>
-        <link rel="stylesheet" href="css/style.css" />
 
-    </head>
-    
-    <body>
+<head>
+    <meta charset="UTF-8" />
+    <title>index</title>
+    <link rel="stylesheet" media="screen" href="css/style.css" />
+    <link rel="stylesheet" media="print" href="css/print.css" />
+
+</head>
+
+<body>
     <div id="wrapper">
-        
-        <div id="header">
-            <!--Header, 1/3 representerar storlek-->
-            <h1>Doffes Magiska Hörna</h1>
-            <h2>Kursblogg - 1IK415</h2>
-        </div>
-        
-        <div id="nav">
-            <h3>Navigation</h3>
-            <p>För att ta sig runt mellan sidorna:</p>
-            <ul class="navmenu">
-                <li><a href="index.html" id="active">Start</a></li>
-                <li><a href="pages/laborationer.html">Laborationer</a></li>
-                <li><a href="pages/presentation.html">Presentation</a></li>
-                <li><a href="pages/kontakt.html">Kontakt</a></li>
-            </ul>
-            <div id="logo"></div>
-        </div>
+        <div class="doprint">
+
+
+            <div id="header">
+                <!--Header, 1/3 representerar storlek-->
+                <h1>Doffes Magiska Hörna</h1>
+                <h2>Kursblogg - 1IK415</h2>
+            </div>
+
+            <div class="donotprint">
+                <div id="nav">
+                    <h3>Navigation</h3>
+                    <p>För att ta sig runt mellan sidorna:</p>
+                    <ul class="navmenu">
+                        <li><a href="index.html" id="active">Start</a>
+                        </li>
+                        <li><a href="pages/laborationer.html">Laborationer</a>
+                        </li>
+                        <li><a href="pages/presentation.html">Presentation</a>
+                        </li>
+                        <li><a href="pages/kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                    <div id="logo"></div>
+                </div>
+            </div>
             <div id="main">
-                <div id="bloglist">    
+                <div id="bloglist">
                     <h3>Blogg för uppdateringar:</h3>
-                    
+
                     <dl>
                         <dt><div class="thumb"></div> 2014-09-14</dt>
-                            <dd>Här kommer jag att skriva lite titt som tätt allt eftersom att jag lär mig mer genom kursen. Just nu finns inte mycket, men det kommer! Vad är ansvar, egentligen? </dd>
-                            
-                        <dd><a id="svgBlogg"></a></dd>
+                        <dd>Här kommer jag att skriva lite titt som tätt allt eftersom att jag lär mig mer genom kursen. Just nu finns inte mycket, men det kommer! Vad är ansvar, egentligen?</dd>
+
+                        <dd>
+                            <a id="svgBlogg"></a>
+                        </dd>
                         <dt><div class="thumb"></div> 2014-09-16</dt>
-                            <dd>Nu ska man tydligen länka till en bild skapad med <a href="pics/picture.svg"> Vektorbaserad grafik </a>. Snart klar med första labben!</dd>
-                            
-                        <dd><a id="trailer"></a></dd>
+                        <dd>Nu ska man tydligen länka till en bild skapad med <a href="pics/picture.svg"> Vektorbaserad grafik </a>. Snart klar med första labben!</dd>
+
+                        <dd>
+                            <a id="trailer"></a>
+                        </dd>
                         <dt><div class="thumb"></div> 2014-09-16</dt>
-                            <dd>Eftersom att de är så snälla med sin upphovsrättslicens så kommer här en trailer till filmen <a href="http://www.bigbuckbunny.org/index.php/about/index.php">Big Buck Bunny</a> i magnifika 480p.</dd>
-                                <dd><video class="leftBlog" controls><source src="videos/trailer_400p.ogg" type="video/ogg"><source src="videos/trailer_480p.mov" type="video/mov"></video></dd>
-                            <dd><br></dd>
-                            
-                        
+                        <dd>Eftersom att de är så snälla med sin upphovsrättslicens så kommer här en trailer till filmen <a href="http://www.bigbuckbunny.org/index.php/about/index.php">Big Buck Bunny</a> i magnifika 480p.</dd>
+                        <dd>
+                            <div class="donotprint">
+                                <video class="leftBlog" controls>
+                                    <source src="videos/trailer_400p.ogg" type="video/ogg">
+                                        <source src="videos/trailer_480p.mov" type="video/mov">
+                                </video>
+                            </div>
+                        </dd>
+                        <dd>
+                            <br>
+                        </dd>
+
                         <dt><div class="thumb"></div> 2014-09-25</dt>
-                            <dd>Åh, idag har varit ännu en lång dag.<img class="rightBlog" src="css/pics/tree.jpg" alt="Black and white picture of a tree"></dd>
-                            <dd>Sidan gick från en svart-vit lista till en vit-svart lista. Man tycker inte att det borde vara så mycket  att göra, men tänk dig själv att invertera någonting.</dd>
-                            <dd><br></dd>
-                            <dd>Att vända någonting ut och in.
+                        <dd>Åh, idag har varit ännu en lång dag.
+                            <img class="rightBlog" src="css/pics/tree.jpg" alt="Black and white picture of a tree">
+                        </dd>
+                        <dd>Sidan gick från en svart-vit lista till en vit-svart lista. Man tycker inte att det borde vara så mycket att göra, men tänk dig själv att invertera någonting.</dd>
+                        <dd>
+                            <br>
+                        </dd>
+                        <dd>Att vända någonting ut och in.
                             <dd>Varje liten beståndsdel, varje ynka stoft av en sak ska vändas ut och in men utan att skada det.</dd>
                             <dd>Mja, så vore det i alla fall om vi skulle göra detta med träd eller en person, men kanske inte riktigt med kod, va?</dd>
-                            <dd><br></dd>
+                            <dd>
+                                <br>
+                            </dd>
                             <dd>En persons kropp, ett underverk på makroskopisk samt mikroskopisk nivå.</dd>
                             <dd>Något som existerar endast för att planeterna låg rätt.</dd>
                             <dd>Vänd ut och in på det, vettja, det går nog att göra utan att skada personen.</dd>
                             <dd>Nej. Men i den digitala världen så tar vi fram sågen direkt.</dd>
-                            <dd><br></dd>
+                            <dd>
+                                <br>
+                            </dd>
                             <dd>"Kill Your Darlings", sade någon till mig.</dd>
                             <dd>Det du skapat, det du lagt ned din själ i... döda det.</dd>
                             <dd>Bygg om dem. Gör om dem. Gör dem bättre.</dd>
                             <dd>Vi har kunskapen (eller?), tiden (mja...) och resurserna (känner nog att jag behöver en extra skärm eller två om jag ska fortsätta med det här)</dd>
-                            <dd><br></dd>
+                            <dd>
+                                <br>
+                            </dd>
                             <dd>Men gör det. Vänd ut och in på dina kärleksbarn. Förstör dem. Misslyckas med att sätta ihop dem igen.</dd>
                             <dd>Det är så, tydligen, så som vi lär oss programmering.</dd>
-                        <dd><a id="treeBlog"></a></dd>
+                            <dd>
+                                <a id="treeBlog"></a>
+                            </dd>
                     </dl>
-                </div>  
+                </div>
             </div>
 
+        </div>
+
+        <div id="footer">
+            <p>Senast ändrat: 2014-09-25</p>
+            <p>Vad är ansvar, egentligen?</p>
+            <p>Christofer Gumowski</p>
+        </div>
+
     </div>
-    
-    <div id="footer">
-        <p>Senast ändrat: 2014-09-25</p>
-        <p>Vad är ansvar, egentligen?</p>
-        <p>Christofer Gumowski</p>
-    </div>
-        
-    </body>
+
+</body>
 
 </html>

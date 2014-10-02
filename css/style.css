@@ -18,12 +18,14 @@ body {
     text-align: center;
     margin: auto auto;
 }
+
 #wrapper {
     background-color: black;
     min-height: 100%;
     margin: 0 auto -120px auto;
     width: 1280px;
 }
+
 #header {
     border-style: outset;
     border-width: 5px;
@@ -34,6 +36,7 @@ body {
     padding: 5px;
     margin: auto 0 auto 0;
 }
+
 #main {
     border-style: outset;
     border-width: 5px;
@@ -44,6 +47,17 @@ body {
     padding: 10px;
     margin: auto 0 auto 0;
 }
+
+#bloglist {
+    border-style: inset;
+    border-width: 5px;
+    border-color: gray;
+    background-color: black;
+    color: #DCDCDC;
+    text-align: left;
+    width: 800px;
+}
+
 /* För att få sticky footer */
 #wrapper:after {
     content:"";
@@ -62,22 +76,16 @@ body {
     height: 120pX;
     margin: 0 auto 0 auto;
 }
-#bloglist {
-    border-style: inset;
-    border-width: 5px;
-    border-color: gray;
-    background-color: black;
-    color: #DCDCDC;
-    text-align: left;
-    width: 800px;
-}
+
+/* Lab table */
 #table {
     text-align: center;
     margin: 0 auto auto auto;
 
-    /* Kan behöva komma att ändra storlek allt eftersom; dela upp i Laborationer/kolumner? */
+    /* width behöver justers efter varje lab, samt sedan ny rad */
     width: 730px;
     height: 390px;
+    
     border-style: outset;
     border-width: 5px;
     border-color: gray;
@@ -90,6 +98,9 @@ table, th, td {
     border-style: solid;
     border-color: gray;
 }
+/* */
+
+/* kontakt-form */
 #form {
     height: 100%;
     width: 400px;
@@ -102,6 +113,8 @@ table, th, td {
     color: #DCDCDC;
     padding: 5px;
 }
+
+/* Nav-menu */
 #nav {
     margin-right: 0px;
     padding: 5;
@@ -127,6 +140,23 @@ table, th, td {
     background-color: gray;
     color: yellow;
 }
+/* Sprites */
+.navmenu span {
+    background: url(pics/sprite.png);
+    width: 24px;
+    height: 24px;
+    margin: 5px 0 0 15px;
+    float: left;
+}
+#start span { background-position: 0 -48px; }
+#start:hover span { background-position: 0 0; }
+#laborationer span { background-position: 0 -144px; }
+#laborationer:hover span { background-position: 0 -96px; }
+#presentation span { background-position: 0 -240px; }
+#presentation:hover span { background-position: 0 -192px; }
+#kontakt span { background-position: 0 -334px; }
+#kontakt:hover span { background-position: 0 -286px; }
+/* */
 .navmenu li a {
     line-height: 30px;
     border-style: outset;
@@ -149,6 +179,8 @@ table, th, td {
     height: 200px;
     background-image: url(pics/logo2.png);
 }
+/* End Nav menu */
+
 /* thumb bild för blogginlägg */
 .thumb {
     display: block;
@@ -158,6 +190,8 @@ table, th, td {
     float: left;
     margin: 2px;
 }
+
+/* Blog pic formatting */
 .rightBlog {
     float: right;
     border-style: outset;
@@ -179,3 +213,4 @@ img.rightBlog {
     display: block;
     margin: 20px auto 20px auto;
 }
+/* */

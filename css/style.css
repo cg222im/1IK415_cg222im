@@ -130,7 +130,8 @@ table, th, td {
 }
 .navmenu { 
     list-style: none; 
-    margin: auto auto;
+    margin: auto 40px auto 0;
+    width: 55%;
 }
 .navmenu li a:hover {
     background-color: gray;
@@ -141,21 +142,14 @@ table, th, td {
     color: yellow;
 }
 /* Sprites */
-.navmenu span {
-    background: url(pics/sprite.png);
-    width: 24px;
-    height: 24px;
-    margin: 5px 0 0 15px;
-    float: left;
-}
-#start span { background-position: 0 -48px; }
-#start:hover span { background-position: 0 0; }
-#laborationer span { background-position: 0 -144px; }
-#laborationer:hover span { background-position: 0 -96px; }
-#presentation span { background-position: 0 -240px; }
-#presentation:hover span { background-position: 0 -192px; }
-#kontakt span { background-position: 0 -334px; }
-#kontakt:hover span { background-position: 0 -286px; }
+#start a { background-position: 0 -48px; }
+#start a:hover { background-position: 0 0; }
+#laborationer a { background-position: 0 -144px; }
+#laborationer a:hover { background-position: 0 -96px; }
+#presentation a { background-position: 0 -240px; }
+#presentation a:hover { background-position: 0 -192px; }
+#kontakt a { background-position: 0 -334px; }
+#kontakt a:hover { background-position: 0 -286px; } 
 /* */
 .navmenu li a {
     line-height: 30px;
@@ -165,8 +159,12 @@ table, th, td {
     background-color: black;
     color: #DCDCDC;
     display: block;
-    width: 65%;
+    width: 100%;
     padding: 0px 10px;
+    background: url(pics/sprite.png) 0 0;
+    background-repeat: no-repeat;
+    height: 24px;
+    margin: 5px 0px 0px 0px;
 }
 #active {
     display: block;

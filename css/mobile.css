@@ -48,10 +48,10 @@ h3 {font-size: 42px;}
     margin-bottom: 50px;
    
 }
-input[type="checkbox"] /* will not work */
+input[type="checkbox"] /* will not work on my S2*/
 { 
     padding: 10px;
-    transform:scale(5,5);
+    transform:scale(3,3);
 }
 
 textarea {

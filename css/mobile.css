@@ -7,7 +7,7 @@ h3 {font-size: 42px;}
     
 
 
-#wrapper { width: 195%;
+#wrapper { width: 198%;
     
 }
 
@@ -15,18 +15,19 @@ h3 {font-size: 42px;}
     
 }
 
-#main { width: 100%;
-    
+#main { width: 99%;
+    font-size: 30px;
 }
 
 #bloglist { width: 100%;
     font-size: 30px;
+    border: none;
 }
 
-#footer { width: 195%;
+#footer { width: 198%;
     font-size: 26px;
     height: auto;
-    line-height: 10px;
+    line-height: 30px;
 }
 #footer > ol {
     text-align: left;
@@ -44,6 +45,8 @@ h3 {font-size: 42px;}
     font-size: 42px;
     line-height: 10px;
     height: 150%;
+    margin-right: -20px;
+    margin-bottom: 50px;
    
 }
 

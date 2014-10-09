@@ -38,8 +38,11 @@ h3 {font-size: 42px;}
 }
 
 #form { width: 100%;
+    font-size: 42px;
+    height: 100%;
     
 }
+
 
 #nav { width: 100%;
     font-size: 42px;
@@ -49,12 +52,20 @@ h3 {font-size: 42px;}
     margin-bottom: 50px;
    
 }
+input[type="checkbox"] 
+{ 
+    padding: 10px;
+}
 
+textarea {
+    max-width: 480px;
+    width: 460px;
+}
 .navmenu li a {
     font-size: 50px;    
     padding: 10px 30px;
     background: none;
-     float: left;
+    float: left;
     
 }
 

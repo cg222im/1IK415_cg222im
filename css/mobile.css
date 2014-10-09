@@ -51,6 +51,7 @@ h3 {font-size: 42px;}
 input[type="checkbox"] /* will not work */
 { 
     padding: 10px;
+    transform:scale(5,5);
 }
 
 textarea {

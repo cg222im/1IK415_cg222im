@@ -1,0 +1,65 @@
+html, body {width: 480px; }
+h1 {font-size: 55px;}
+h2 {font-size: 50px;}
+h3 {font-size: 42px;}
+
+
+    
+
+
+#wrapper { width: 195%;
+    
+}
+
+#header { width: 100%;
+    
+}
+
+#main { width: 100%;
+    
+}
+
+#bloglist { width: 100%;
+    font-size: 30px;
+}
+
+#footer { width: 195%;
+    font-size: 26px;
+    height: auto;
+    line-height: 10px;
+}
+#footer > ol {
+    text-align: left;
+}
+
+#table { width: 100%;
+    
+}
+
+#form { width: 100%;
+    
+}
+
+#nav { width: 100%;
+    font-size: 42px;
+    line-height: 10px;
+    height: 150%;
+   
+}
+
+.navmenu li a {
+    font-size: 50px;    
+    padding: 10px 30px;
+    background: none;
+     float: left;
+    
+}
+
+#logo { 
+    width: 200px;
+    float: right;
+    margin-top: -160px;
+    margin-right: 60px;
+}
+
+

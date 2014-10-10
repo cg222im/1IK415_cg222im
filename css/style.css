@@ -13,10 +13,10 @@ body {
     background-color: black;
     font-family: "Times New Roman", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    width: 1280px;
+
     color: #DCDCDC;
     text-align: center;
-    margin: auto auto;
+ 
 }
 
 #wrapper {
@@ -73,7 +73,7 @@ body {
     clear: both;
     text-align: center;
     padding: 5px;
-    height: 120pX;
+    height: 120px;
     margin: 0 auto 0 auto;
 }
 
@@ -81,11 +81,8 @@ body {
 #table {
     text-align: center;
     margin: 0 auto auto auto;
-
     /* width behöver justers efter varje lab, samt sedan ny rad */
     width: 730px;
-    height: 390px;
-    
     border-style: outset;
     border-width: 5px;
     border-color: gray;

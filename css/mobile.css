@@ -1,13 +1,13 @@
-body {width: 480px;float:left }
+body {width: 100%; }
 h1 {font-size: 55px;}
 h2 {font-size: 50px;}
 h3 {font-size: 42px;}
 
-#wrapper { width: 198%; ;
+#wrapper { width: 100%; ;
     
 }
 
-#header { width: 100%;
+#header { width: 99%;
     
 }
 
@@ -15,12 +15,12 @@ h3 {font-size: 42px;}
     font-size: 30px;
 }
 
-#bloglist { width: 100%;
+#bloglist { width: 99%;
     font-size: 30px;
     border: none;
 }
 
-#footer { width: 198%;
+#footer { width: 100%;
     font-size: 26px;
     height: auto;
     line-height: 30px;
@@ -34,13 +34,13 @@ h3 {font-size: 42px;}
     font-size: 30px;
 }
 
-#form { width: 100%;
+#form { width: 99%;
     font-size: 42px;
     height: 100%;
     
 }
 
-#nav { width: 100%;
+#nav { width: 99%;
     font-size: 42px;
     line-height: 10px;
     height: 150%;

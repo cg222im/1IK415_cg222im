@@ -46,6 +46,7 @@ body {
     text-align: left;
     padding: 10px;
     margin: auto 0 auto 0;
+    
 }
 
 #bloglist {
@@ -58,7 +59,7 @@ body {
     width: 800px;
 }
 
-/* För att få sticky footer */
+/* För att få sticky footer  -- FUNKAR EJ ATM! */
 #wrapper:after {
     content:"";
     display:block;
@@ -72,9 +73,9 @@ body {
     color: #DCDCDC;
     clear: both;
     text-align: center;
-    padding: 5px;
     height: 120px;
     margin: 0 auto 0 auto;
+    width: 1270px;
 }
 
 /* Lab table */
@@ -82,13 +83,15 @@ body {
     text-align: center;
     margin: 0 auto auto auto;
     /* width behöver justers efter varje lab, samt sedan ny rad */
-    width: 730px;
+    width: 980px;
     border-style: outset;
     border-width: 5px;
     border-color: gray;
     background-color:black;
     color: #DCDCDC;
     padding: 5px;
+    float:left;
+    margin-left:-5px;
 }
 table, th, td {
     border: 1px;
@@ -124,6 +127,7 @@ table, th, td {
     height: 450px;
     float: right;
     padding: 5px;
+    margin-bottom: 100px;
 }
 .navmenu { 
     list-style: none; 

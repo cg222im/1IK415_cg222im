@@ -1,10 +1,14 @@
+@font-face {
+    font-family: bosque;
+    src: url("bosque encantado.ttf");
+}
 #container {
-        margin: 5px;
+        margin: 50px auto 0 auto;
     padding: 5px;
 
     height: auto;
-    width: auto;
-    float: left;
+    width: 1280px;
+    
     text-align: center;
 }
 
@@ -20,8 +24,8 @@ a {
 	margin: 0 15px 30px;
 	padding: 10px 10px 25px;
 	text-align: center;
-	/* Font-family!!! */
 	text-decoration: none;
+    font-family:"bosque";
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
 	box-shadow: 0 4px 6px rgba(0,0,0,.3);
@@ -44,9 +48,21 @@ img {
 	width: inherit; 
 	height: 200px;
 }
-a:hover {
-    z-index:1;
+
+a:nth-child(1n):hover {
+    position:relative;
+    -webkit-transform: rotate(0deg); 
+	-moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
 }
+
 a:nth-child(1n) {
     -webkit-transform: rotate(-3deg);  
 	-moz-transform: rotate(-3deg); 

@@ -36,6 +36,10 @@ body {
     padding: 5px;
     margin: auto 0 auto 0;
 }
+header {
+    font-size: 18px;
+}
+
 
 #main {
     border-style: outset;
@@ -46,7 +50,15 @@ body {
     text-align: left;
     padding: 10px;
     margin: auto 0 auto 0;
-    
+}
+main {
+    border-style: outset;
+    border-width: 5px;
+    border-color: gray;
+    background-color: black;
+    color: #DCDCDC;
+    text-align: left;
+    padding: 10px;
 }
 
 #bloglist {
@@ -66,6 +78,18 @@ body {
     height: 120px;
 }
 #footer {
+    border-style: inset;
+    border-width: 5px;
+    border-color: gray;
+    background-color: black;
+    color: #DCDCDC;
+    clear: both;
+    text-align: center;
+    height: 120px;
+    margin: 0 auto 0 auto;
+    width: 1270px;
+}
+footer {
     border-style: inset;
     border-width: 5px;
     border-color: gray;
@@ -116,6 +140,20 @@ table, th, td {
 
 /* Nav-menu */
 #nav {
+    margin-right: 0px;
+    padding: 5;
+    width:250px;
+    border-style: outset;
+    border-width: 5px;
+    border-color:gray;
+    background-color: black;
+    color: #DCDCDC;
+    height: 450px;
+    float: right;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+nav {
     margin-right: 0px;
     padding: 5;
     width:250px;

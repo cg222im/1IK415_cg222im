@@ -1,11 +1,13 @@
+body {background: black;}
 @font-face {
     font-family: bosque;
     src: url("bosque encantado.ttf");
+    
 }
 #container {
-        margin: 50px auto 0 auto;
+    margin: 50px auto 0 auto;
     padding: 5px;
-
+   
     height: auto;
     width: 1280px;
     
@@ -16,6 +18,7 @@
      float:right;  
      clear: right;
      margin-left: 20px;
+     color:antiquewhite;
 }
 a {
 	background: antiquewhite;
@@ -26,9 +29,9 @@ a {
 	text-align: center;
 	text-decoration: none;
     font-family:"bosque";
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
-	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 4px 6px 5px floralwhite;
+	-moz-box-shadow: 0 4px 6px 5px floralwhite;
+	box-shadow: 0 4px 6px 5px floralwhite;
 	-webkit-transition: all .15s linear;
 	-moz-transition: all .15s linear;
 	transition: all .15s linear;
@@ -58,9 +61,22 @@ a:nth-child(1n):hover {
     -moz-transform: scale(1.5);
     transform: scale(1.5);
 	z-index:10;
-	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
-    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+	-webkit-box-shadow: 0 15px 30px 20px floralwhite;
+	-moz-box-shadow: 0 15px 30px 20px floralwhite;
+    box-shadow: 0 15px 30px 20px floralwhite;
+}
+a:nth-child(1n):focus {
+    position:relative;
+    -webkit-transform: rotate(0deg); 
+	-moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+	z-index:10;
+	-webkit-box-shadow: 0 15px 30px 20px floralwhite;
+	-moz-box-shadow: 0 15px 30px 20px floralwhite;
+    box-shadow: 0 15px 30px 20px floralwhite;
 }
 
 a:nth-child(1n) {

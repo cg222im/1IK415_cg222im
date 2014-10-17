@@ -3,6 +3,7 @@ dt {margin-top: 5px;}
 h1, h2, h3 { color: #DCDCDC;}
 h4 { color: #D3D3D3; text-decoration: underline; }
 
+
 a:link { color: #00BFFF; }
 a:visited { color: purple; }
 a:focus { color: yellow; }
@@ -60,6 +61,7 @@ main {
     text-align: left;
     padding: 10px;
 }
+
 
 #bloglist {
     border-style: inset;

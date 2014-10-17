@@ -3,7 +3,6 @@ dt {margin-top: 5px;}
 h1, h2, h3 { color: #DCDCDC;}
 h4 { color: #D3D3D3; text-decoration: underline; }
 
-
 a:link { color: #00BFFF; }
 a:visited { color: purple; }
 a:focus { color: yellow; }
@@ -14,10 +13,8 @@ body {
     background-color: black;
     font-family: "Times New Roman", Helvetica, Arial, sans-serif;
     font-size: 14px;
-
     color: #DCDCDC;
     text-align: center;
- 
 }
 
 #wrapper {
@@ -36,11 +33,12 @@ body {
     text-align: center;
     padding: 5px;
     margin: auto 0 auto 0;
+
 }
 header {
-    font-size: 18px;
+    font-size: 15px;
+    
 }
-
 
 #main {
     border-style: outset;
@@ -60,6 +58,10 @@ main {
     color: #DCDCDC;
     text-align: left;
     padding: 10px;
+}
+article {
+    display:block;
+    margin-left: 10px;
 }
 
 
@@ -247,6 +249,8 @@ img.rightBlog {
     border-style: inset;
     border-width: 5px;
     border-color: gray;
+    display:block;
+    margin-right: 50px;
 }
 .center {
     display: block;
